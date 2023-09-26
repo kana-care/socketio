@@ -4,7 +4,6 @@ go 1.17
 
 require (
 	github.com/gobwas/ws v1.1.0
-	github.com/google/uuid v1.3.0
 	github.com/stretchr/testify v1.7.1
 	github.com/vmihailenco/msgpack v4.0.4+incompatible
 	golang.org/x/net v0.1.0
@@ -25,3 +24,5 @@ require (
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
 )
+
+replace github.com/njones/socketio v0.1.0 => github.com/kana-care/socketio v0.1.0
